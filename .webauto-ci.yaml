@@ -14,6 +14,14 @@ simulations:
         artifact: main
       runtime:
         type: simulator/standard1/amd64/medium
+  - name: localization
+    type: localization
+    simulator:
+      deployment:
+        type: container
+        artifact: main
+      runtime:
+        type: standard1/amd64/large
         cpu: 8
         memory: 16384
       parameters:
